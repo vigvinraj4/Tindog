@@ -1,0 +1,173 @@
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+/*title section*/
+#title {
+  font-size: 3rem;
+  position: relative;
+  z-index: 0;
+  margin-bottom: -200px;
+  text-align: left;
+
+}
+.sourceimg{
+  width: 60%;
+  margin-bottom:50px;
+  transform: rotate(25deg);
+  position: relative;
+  left: 16%;
+
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+
+}
+.download-button{
+  margin:5% 3% 5% 0;
+
+}
+/*Headings*/
+.title-heading{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.testimonial-header{
+  font-size: 3rem;
+  line-height: 1.5;
+  padding:20px;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-headers{
+  font-size: 1.5rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* media query for responsive website*/
+@media (max-width:1300px) {
+  .sourceimg{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #features{
+    position: static;
+      z-index: 0;
+  }
+  #title{
+    position: static;
+    z-index: 0;
+    margin-bottom: auto;
+    text-align: center;
+  }
+}
+.custom-class{
+  position: relative;
+}
+
+
+/*feature-secion*/
+.fa1{
+
+  color:#ef8172;
+  position: relative;
+
+}
+.fa1:hover{
+  color:#ff4c68;
+}
+.pf{
+  color: #8f8f8f;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.feature-box{
+  padding:5%;
+}
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+/*Testimonials*/
+#testimonials{
+  font-weight: bolder;
+}
+.testimonialimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+.testimonial-logos{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*press section*/
+#press{
+
+  padding-bottom: 3%;
+
+}
+
+.carousel-item{
+  padding: 8% 15%;
+}
+/*pricing section*/
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+#cta{
+
+  padding: 3% 15%;
+  font-family: Montserrat;
+
+}
+
+#footer{
+  padding: 3% 15%;
+}
+.font-icons{
+  font-size: 20px;
+  margin: 25px 10px;
+}
+/*colored-sections*/
+.colored-section{
+    background-color: #ff4c68;
+    color:white;
+}
+.colored-section#testimonials, #press{
+  background-color: #ef8172;
+}
+.white-section{
+  background-color: white;
+}
